@@ -7,10 +7,12 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/', strict_slashes=False)
 def hello():
     '''Display text'''
     return ('Hello HBNB!')
+
 
 if __name__ == '__main__':
     '''Entry Point'''
