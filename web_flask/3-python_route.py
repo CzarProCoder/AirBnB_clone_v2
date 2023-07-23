@@ -34,6 +34,7 @@ def pythonrt(text='is cool'):
     text = text.replace('_', ' ')
     return f'Python {text}'
 
+
 if __name__ == '__main__':
     '''Entry Point'''
     app.run(host='0.0.0.0', port=5000)
